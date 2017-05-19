@@ -19,7 +19,37 @@
 	<!-- Sección newsletter -->
 		<section class="color">
 			<div class="newsletter">
-				<button id="suscribirse">Suscríbete a nuestro newsletter</button>
+				<h1>¿Te gusta el té?</h1>
+				<div class="formulario-te">	
+						<label for="nombre" class="formulario-texto">Nombre:</label>
+						<div class="casilla-formulario">
+							<input type="text" class="input-formulario" placeholder="Escribe tu nombre">
+						</div>
+						
+				</div>
+				<div class="formulario-te">	
+						<label for="email" class="formulario-texto" >Email:</label>
+						<div class="casilla-formulario">
+							<input type="text" class="input-formulario" placeholder="Escribe tu email">
+						</div>
+						
+				</div>
+				<div class="formulario-te">	
+						<label for="direccion" class="formulario-texto" >Dirección:</label>
+						<div class="casilla-formulario">
+							<input type="text" class="input-formulario" placeholder="Escribe tu direccion">
+						</div>
+						
+				</div>
+				<div class="formulario-select">
+					<select required>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+					</select>
+				</div> 
+				<button id="suscribirse" onclick="alertaNewsletter()">Suscríbete a nuestro newsletter</button>
 			</div>
 		</section>
 	<!-- Sección nuestra pasión -->
@@ -70,5 +100,6 @@
 			<p>Té Encanto: Av. Italia 1317, Providencia.</p>
 		</footer>
 
+		<script type="text/javascript" src="assets/js/main.js"></script>
 	</body>
 </html>
