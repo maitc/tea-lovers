@@ -100,3 +100,25 @@ footer{
 	padding: 20px 30px;
 	color: white;
 }
+
+/*Ejercicio evaluado*/
+/*titulo*/
+.newsletter h1{
+	color: white;
+	padding: 5px;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+.formulario-texto{
+	color: white;
+	padding: 30px;
+	margin: 0 auto;
+}
+.formulario-te .casilla-formulario input{
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	border-radius: 5px;
+	padding: 5px;
+
+}
